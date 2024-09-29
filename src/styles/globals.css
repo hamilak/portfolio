@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
-  background-color: #000;
+  /* background-color: #000; */
   padding: 0;
   margin: 0;
 }
@@ -29,7 +29,7 @@
 
 .text-decorate {
   padding: 3px;
-  background-image: linear-gradient(rgb(37, 37, 209), rgb(37, 37, 221));
+  background-image: linear-gradient(rgb(17, 17, 204), rgb(17, 17, 204));
   background-size: 100% 4px;
   background-repeat: no-repeat;
   background-position: 100% 0%;
