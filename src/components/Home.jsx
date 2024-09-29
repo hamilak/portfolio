@@ -1,13 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { TbBrandJavascript } from "react-icons/tb";
-import { FaReact } from "react-icons/fa";
-import { DiNodejs } from "react-icons/di";
-import { SiNestjs } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
-import { TbBrandTailwind } from "react-icons/tb";
-import { TbBrandPython } from "react-icons/tb";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Tooltip, Whisper } from 'rsuite';
 
@@ -49,10 +40,11 @@ const Home = () => {
                     <div className='w-52 h-52 border border-pink-300 flex justify-center items-center rounded-full'>
                         <div className='w-44 h-44 rounded-full border border-blue-900 absolute bg-transparent'></div>
                         <div className='w-48 h-48 rounded-full overflow-hidden'>
-                            <img
+                            <Image
                                 src="/mypicture.png"
                                 alt="My Picture"
                                 className="object-cover w-full h-full"
+                                width={1000} height={1000}
                             />
                         </div>
                     </div>

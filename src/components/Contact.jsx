@@ -1,8 +1,4 @@
 import React, { useRef } from 'react'
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FaSquareXTwitter, FaUpwork } from "react-icons/fa6";
 import emailjs from 'emailjs-com';
 import { Divider, Tooltip, Whisper } from 'rsuite';
 
@@ -30,7 +26,7 @@ const Contact = () => {
         <div className='lg:flex items-center justify-start min-h-screen'>
         <div className="text-center w-2/5 hidden lg:block">
             <div className='flex justify-center'>
-              <img src='/telephone.png' alt='Contact' width={100} />
+              <img src='/telephone.png' alt='Contact' width={100} height={100} />
             </div>
             <h6 className='lg:hidden block text-6xl'>Contact</h6>
           </div>

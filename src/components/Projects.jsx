@@ -114,7 +114,7 @@ const Projects = () => {
                 </button>
                 <div className='flex overflow-hidden'>
                   {currentSlide[projectIndex] !== undefined && (
-                    <img
+                    <Image
                       src={projects[projectIndex].slides[currentSlide[projectIndex]]}
                       alt={`Slide ${currentSlide[projectIndex] + 1}`}
                       width={200}
@@ -122,7 +122,7 @@ const Projects = () => {
                     />
                   )}
                 </div>
-                <img src="/icons8-click.gif" alt="Click" className='w-10 h-10' />
+                <Image src="/icons8-click.gif" alt="Click" width={40} height={40} className='w-10 h-10' />
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
@@ -157,8 +157,9 @@ const Projects = () => {
               <button onClick={() => handlePrevSlide(selectedProjectIndex)}>
                 <IoChevronBack size={24} />
               </button>
-              <img
+              <Image
                 width={600}
+                height={600}
                 src={projects[selectedProjectIndex].slides[currentSlide[selectedProjectIndex]]}
                 alt='Project Slide'
                 className='object-contain'
