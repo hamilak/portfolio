@@ -40,14 +40,22 @@ const Projects = () => {
       slides: [
         '/GAMS/dashboard.png',
         '/GAMS/questions.png',
-        // '/GAMS/application.png',
+        '/GAMS/application.png',
         '/GAMS/profile.png',
       ],
     },
     {
-      title: 'Chat bot',
+      title: 'Social Media App',
       description: 'Description for Project Three.',
       slides: ['/bouncy-project-management-workflow.png'],
+    },
+    {
+      title: 'Oxte Website',
+      description: 'Description for Project Three.',
+      slides: [
+        '/landing.png',
+        '/section.png',
+      ]
     },
   ];
 

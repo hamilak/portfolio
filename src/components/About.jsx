@@ -30,6 +30,22 @@ const About = () => {
           </button>
         </a>
       </div>
+      <div className='mt-8 flex justify-center'>
+        <div>
+          <h5 className='text-center mb-4'>Services</h5>
+          <div className='flex gap-4'>
+            <div className='bg-blue-600 rounded-md p-4'>
+              <h5>Website development</h5>
+            </div>
+            <div className='bg-orange-600 rounded-md p-4'>
+              <h5>Web app development</h5>
+            </div>
+            <div className='bg-purple-600 rounded-md p-4'>
+              <h5>Deployment</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

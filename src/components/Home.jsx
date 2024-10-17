@@ -62,39 +62,39 @@ const Home = () => {
                             <ul className='flex gap-8 '>
                                 <Whisper followCursor speaker={<Tooltip>Javascript</Tooltip>}>
                                     <li className="cursor-pointer">
-                                    <img width="32" height="32" src="https://img.icons8.com/fluency/32/javascript.png" alt="javascript"/>
-                                        </li>
+                                        <img width="32" height="32" src="https://img.icons8.com/fluency/32/javascript.png" alt="javascript" />
+                                    </li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>Nestjs</Tooltip>}>
                                     <li className="cursor-pointer">
-                                    <img width="32" height="32" src="https://img.icons8.com/color/32/nestjs.png" alt="nestjs"/>
-                                        </li>
+                                        <img width="32" height="32" src="https://img.icons8.com/color/32/nestjs.png" alt="nestjs" />
+                                    </li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>Nodejs</Tooltip>}>
                                     <li className="cursor-pointer">
-                                    <img width="32" height="32" src="https://img.icons8.com/color/32/nodejs.png" alt="nodejs"/>
-                                        </li>
+                                        <img width="32" height="32" src="https://img.icons8.com/color/32/nodejs.png" alt="nodejs" />
+                                    </li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>Reactjs</Tooltip>}>
                                     <li className="cursor-pointer">
-                                    <img width="32" height="32" src="https://img.icons8.com/officel/32/react.png" alt="react"/>
-                                        </li>
+                                        <img width="32" height="32" src="https://img.icons8.com/officel/32/react.png" alt="react" />
+                                    </li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>Tailwindcss</Tooltip>}>
-                                    <li className="cursor-pointer"><img width="32" height="32" src="https://img.icons8.com/color/32/tailwindcss.png" alt="tailwindcss"/></li>
+                                    <li className="cursor-pointer"><img width="32" height="32" src="https://img.icons8.com/color/32/tailwindcss.png" alt="tailwindcss" /></li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>PostgreSQL</Tooltip>}>
                                     <li className="cursor-pointer">
-                                    <img width="32" height="32" src="https://img.icons8.com/color/32/postgreesql.png" alt="postgreesql"/>
-                                        </li>
+                                        <img width="32" height="32" src="https://img.icons8.com/color/32/postgreesql.png" alt="postgreesql" />
+                                    </li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>Next.js</Tooltip>}>
-                                    <li className="cursor-pointer"><img width="32" height="32" src="https://img.icons8.com/fluency-systems-filled/32/FFFFFF/nextjs.png" alt="nextjs"/></li>
+                                    <li className="cursor-pointer"><img width="32" height="32" src="https://img.icons8.com/fluency-systems-filled/32/FFFFFF/nextjs.png" alt="nextjs" /></li>
                                 </Whisper>
                                 <Whisper followCursor speaker={<Tooltip>Python</Tooltip>}>
                                     <li className="cursor-pointer">
-                                    <img width="32" height="32" src="https://img.icons8.com/fluency/32/python.png" alt="python"/>
-                                        </li>
+                                        <img width="32" height="32" src="https://img.icons8.com/fluency/32/python.png" alt="python" />
+                                    </li>
                                 </Whisper>
                             </ul>
                         </div>
